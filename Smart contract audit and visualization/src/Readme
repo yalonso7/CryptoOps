@@ -1,0 +1,67 @@
+
+
+
+          
+Smart Contract Audit and Visualization Tool
+
+Project Overview
+This project is a comprehensive tool for auditing and visualizing smart contracts, integrating DeFi protocols, and providing secure blockchain interactions.
+
+Project Structure
+
+Components:
+- Contract Visualizer
+  - `ContractGraph.tsx`: Handles the visual representation of smart contracts
+
+- DeFi Integration
+  - `ProtocolConnector.tsx`: Manages connections with various DeFi protocols
+
+ Configuration
+- `env.ts`: Environment configuration settings
+
+ Middleware
+- `apiSecurity.ts`: Implements API security measures
+
+ Services
+- `contractInteraction.ts`: Manages direct interactions with smart contracts
+- `contractSecurityGuard.ts`: Implements security measures for contract interactions
+- `secureStorage.ts`: Handles secure data storage
+- `web3Provider.ts`: Provides Web3 connectivity
+- `web3Service.ts`: Implements Web3-related services
+
+ Technology Stack
+- Frontend: React with TypeScript (indicated by `.tsx` files)
+- Blockchain Integration: Web3
+- Security: Custom middleware and security guards
+
+ Features
+1. Smart Contract Visualization
+   - Interactive contract graph visualization
+   - Visual analysis of contract relationships
+
+2. DeFi Protocol Integration
+   - Protocol connection management
+   - DeFi interaction capabilities
+
+3. Security Features
+   - API security middleware
+   - Contract security monitoring
+   - Secure storage implementation
+
+4. Web3 Integration
+   - Blockchain connectivity
+   - Contract interaction management
+
+Getting Started
+To get started with this project, ensure you have the following prerequisites:
+- Node.js and npm/yarn
+- Web3 provider or connection to Ethereum network
+- TypeScript development environment
+
+Security
+This project implements multiple security layers:
+- API security middleware
+- Contract security monitoring
+- Secure storage mechanisms
+- Protected Web3 interactions
+
